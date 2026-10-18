@@ -1,0 +1,22 @@
+# Core numerical and scientific computation
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio I/O and DSP processing
+soundfile>=0.12.1
+noisereduce>=3.0.0
+pedalboard>=0.9.0
+
+# GUI visualization and interactive noise interval selection
+matplotlib>=3.8.0
+
+# System-level dependencies required at runtime (Ubuntu/Debian):
+# sudo apt update && sudo apt install -y ffmpeg python3-tk
+# - ffmpeg: Required by subprocess for reading non-WAV audio and exporting to MP3 (LAME)
+# - python3-tk: Required for file/directory GUI dialogs (tkinter) and Matplotlib window
+
+# System-level dependencies required at runtime (Ubuntu/Debian):
+# sudo apt update && sudo apt install -y ffmpeg python3-tk
+# - ffmpeg: Required by subprocess for reading non-WAV audio and exporting to MP3 (LAME)
+# - python3-tk: Required for file/directory GUI dialogs (tkinter) and Matplotlib window
+
